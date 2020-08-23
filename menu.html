@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="css/menu.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="index.js"></script>
+    <script src="js/index.js"></script>
     <title>GRUB & SCRUB</title>
 </head> 
 <body>
@@ -14,40 +14,477 @@
         <a href="javascript:void(0);" class= "icon" onclick="navBar()">
             <i class="fa fa-bars" onclick="openNav()"></i>
         </a>
-            <div class="sidenav" id="mySidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="menu.html">Menu</a>
-                <a href="carWash.html">Car Wash</a>
-            </div>
+        <div class="sidenav" id="mySidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="carWash.html">Car Wash</a>
+        </div>
         <div class="menu-title">
             <h2>Our Menu</h2>
         </div>
     </div>
+
     <section id="sandwiches" class="menu-section">
         <div class="section-title">
             <h3>SANDWICHES</h3>
+            <p>*Add Bacon $1.00 Extra Cheese $0.50 Lettuce or Tomato $0.25</p>
+            <p>*Make it a basket for $4.49! (Medium drink, fries or house potato salad and 2 hush puppies)</p>
+            <p>*Make it a combo for $3.49! (Medium drink and fries)</p>
         </div>
         <div class="menu-container">
             <div class="menu-item">
                 <h4>Hamburger</h4>
+                <hr class="menu-rule">
                 <div class="menu-item-desc">
-                    <p>1/2 lb hand-pattied and grilled to order with choice of ketchup, mustard, mayo, pickle, onion</p>
+                    <p>1/2 lb hand-pattied and grilled to order with choice of ketchup, mustard, mayo, pickle, and onion</p>
+                    <h5>$4.99</h5>
                 </div>
             </div>
             <div class="menu-item">
                 <h4>Cheeseburger</h4>
+                <hr class="menu-rule">
                 <div class="menu-item-desc">
-                    <p>1/2 lb hand-pattied and grilled to order with choice of ketchup, mustard, mayo, pickle, onion</p>
+                    <p>Just like our hamburger, but with a slice of cheese!</p>
+                    <h5>$5.49</h5>
                 </div>
             </div>
             <div class="menu-item">
                 <h4>Grub Burger</h4>
+                <hr class="menu-rule">
                 <div class="menu-item-desc">
-                    <p>1/2 lb hand-pattied and grilled to order with choice of ketchup, mustard, mayo, pickle, onion</p>
+                    <p>2 patties, Cheddar & Pepperjack, smoked ham, ranch, mayo, lettuce, and tomato</p>
+                    <h5>$10.99</h5>
                 </div>
             </div>
+            <hr class= "flexbox-new-row">
+            <div class="menu-item">
+                <h4>1/2 Lb BLT</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>1/2 lbs smoked bacon, lettuce, tomato, served on toasted sourdough</p>
+                    <h5>$8.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Huge Breaded Tenderloin</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Breaded, deep fried, served on toasted bun</p>
+                    <h5>$7.49</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Smoked Pulled Pork</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Pulled pork smothered in BBQ sauce, served on a toasted bun</p>
+                    <h5>$10.99</h5>
+                </div>
+            </div>
+            <hr class="flexbox-new-row">
+            <div class="menu-item">
+                <h4>Fried Chicken Sandwich</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>All-white deep-fried chicken breast, served on a toasted bun</p>
+                    <h5>$5.49</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Grilled Chicken Sandwich</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Grilled chicken breast, served on a toasted bun</p>
+                    <h5>$5.49</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Grilled Chicken Wrap</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Grilled chicken breast, served in a flour tortilla</p>
+                    <h5>$5.49</h5>
+                </div>
+            </div>
+            <hr class="flexbox-new-row">
+            <div class="menu-item">
+                <h4>Grilled Ham and Cheese</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>A grilled ham and cheese sandwiched, served on toasted bun</p>
+                    <h5>$5.49</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="poboys" class="menu-section">
+        <div class="section-title">
+            <h3>PO'BOYS</h3>
+            <p>All Po'boys are served with cajun potato salad</p>
+        </div>
+        <div class="menu-container">
+            <div class="menu-item">
+                <h4>Fried Shrimp</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Breaded popcorn shrimp covered with lettuce & tomato, smothered in hommeade remoulade sauce, served on french bread</p>
+                    <h5>$8.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Fried Chicken</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Sliced fried chicken covered with lettuce & tomato, smothered in homemade remoulade sauce, served on french bread</p>
+                    <h5>$7.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Pulled Pork</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Smoked pulled pork smothered in homemade remoulade sauce, served on french bread</p>
+                    <h5>$7.99</h5>
+                </div>
+            </div>
+            <hr class="flexbox-new-row">
+            <div class="menu-item">
+                <h4>Shredded Beef</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Shredded beef smothered with onion and beef spices, served on french bread</p>
+                    <h5>$7.99</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="baskets" class="menu-section">
+        <div class="section-title">
+            <h3>BASKETS</h3>
+        </div>
+        <div class="menu-container">
+            <div class="menu-item">
+                <h4>Fried Shrimp Basket</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Butterfly shrimp battered and fried, served with fries and hush puppies</p>
+                    <h5>$6.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Catfish Basket</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Fried catfish fillet, served with fries and hush puppies</p>
+                    <h5>$8.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Chicken Basket</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Fried chicken strips, served with fries and hush puppies</p>
+                    <h5>$8.99</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cajun" class="menu-section">
+        <div class="section-title">
+            <h3>CAJUN</h3>
+        </div>
+        <div class="menu-container">
+            <div class="menu-item">
+                <h4>Chicken Gumbo</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, officiis!</p>
+                    <h5>CUP: $4.99</h5>
+                    <h5>BOWL: $7.49</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Cajun Seafood Gumbo</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum harum possimus autem vero perspiciatis sunt laboriosam nemo labore! Fuga, error.</p>
+                    <h5>CUP: $6.49</h5>
+                    <h5>BOWL: $8.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Cajun Seafood Etouffee</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, neque..</p>
+                    <h5>CUP: $5.49</h5>
+                    <h5>BOWL: $7.99</h5>
+                </div>
+            </div>
+            <hr class="flexbox-new-row">
+            <div class="menu-item">
+                <h4>Jambalaya</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Andouille sausage, chicken, red beans, rice with cajun spice.</p>
+                    <h5>CUP: $5.49</h5>
+                    <h5>BOWL: $6.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Cajun Sampler</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ab omnis et ipsa impedit est. Beatae nostrum cum totam fugiat!</p>
+                    <h5>$36.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Shrimp Boil</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>1/2 lb fresh golf shrimp, sweet corn, andouille sausage, potatoes with cocktail sauce</p>
+                    <h5>$14.99</h5>
+                </div>
+            </div>
+            <hr class="flexbox-new-row">
+            <div class="menu-item">
+                <h4>Peel and Eat Shrimp</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, aliquid? </p>
+                    <h5>$14.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Gator Bites</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsum. </p>
+                    <h5>$6.49</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Boudin</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, nulla.</p>
+                    <h5>$6.99</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sides" class="menu-section">
+        <div class="section-title">
+            <h3>SIDES</h3>
+        </div>
+        <div class="menu-container">
+            <div class="menu-item">
+                <h4>Fries</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>SMALL: $2.49</h5>
+                    <H5>LARGE: $3.49</H5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Loaded Fries</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$6.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Mozzarella Stix</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$3.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Fried Mushrooms</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$3.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Mini Corn Dogs</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$3.99</h5>
+                </div>
+            </div>
+            <hr class="flexbox-new-row">
+            <div class="menu-item">
+                <h4>Tator Tots</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>SMALL: $2.49</h5>
+                    <h5>LARGE: $3.49</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Onion Rings</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$3.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Crab Rangoon</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$5.49</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Nachos</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$4.49</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Potato Salad</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$1.99</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kids" class="menu-section">
+        <div class="section-title">
+            <h3>KIDS</h3>
+            <p>All kids meals served with fries and a small drink</p>
+        </div>
+        <div class="menu-container">
+            <div class="menu-item">
+                <h4>Kids Hamburger</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$5.49</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Kids Cheeseburger</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$5.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Kids Chicken Strip</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$5.99</h5>
+                </div>
+            </div>
+            <hr class="flexbox-new-row">
+            <div class="menu-item">
+                <h4>Kids Fried Shrimp</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$6.49</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Kids Corn Dog</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$5.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Kids Catfish Nuggets</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$5.49</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="icecream" class="menu-section">
+        <div class="section-title">
+            <h3>Ice Cream</h3>
+            <p>Vanilla, chocolate, or twist </p>
+            <p>Toppings are $0.99</p>
+            <p>Cherry, strawberry, chocolate, hot fudge, caramel, butterscotch, pineapple, blueberry, mint, marshmallow, raspberry, sprinkles, Oreo, peanut butter cup, Resses Pieces, banana, M&M, Butterfinger, cookie dough, whipped toppings, crushed nuts</p>
+        </div>
+        <div class="menu-container">
+            <div class="menu-item">
+                <h4>Original Cone</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>SMALL: $2.99</h5>
+                    <h5>LARGE: $3.99</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Waffle Cone</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>SMALL: $3.49</h5>
+                    <h5>LARGE: $4.49</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Shake, Malt, Float</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>SMALL: $4.49</h5>
+                    <h5>LARGE: $5.49</h5>
+                </div>
+            </div>
+            <hr class="flexbox-new-row">
+            <div class="menu-item">
+                <h4>Cup</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>SMALL: $2.29</h5>
+                    <h5>LARGE: $3.29</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Sundae</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$4.49</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Banana Split</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$5.49</h5>
+                </div>
+            </div>
+            <hr class="flexbox-new-row">
+            <div class="menu-item">
+                <h4>Parfait</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>$4.49</h5>
+                </div>
+            </div>
+            <div class="menu-item">
+                <h4>Bowl</h4>
+                <hr class="menu-rule">
+                <div class="menu-item-desc">
+                    <h5>PINT: $3.49</h5>
+                    <h5>QUART: $4.99</h5>
+                </div>
+            </div>
+            <hr class="flexbox-new-row">
         </div>
     </section>
 
@@ -64,18 +501,18 @@
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="menu.html">Menu</a>
-            <a href="carWash.html">Car Wash</a>
+            <a href="carwash.html">Car Wash</a>
         </div>
         <div class="menu">
             <h3>Menu</h3>
             <hr class="who-rule">
-            <a href="#">Sandwiches</a>
-            <a href="#">Po'Boys</a>
-            <a href="#">Baksets</a>
-            <a href="#">Cajun</a>
-            <a href="#">Sides</a>
-            <a href="#">Kids</a>
-            <a href="#">Ice Cream</a>
+            <a href="menu.html#sandwiches">Sandwiches</a>
+            <a href="menu.html#poboys">Po'Boys</a>
+            <a href="menu.html#baskets">Baksets</a>
+            <a href="menu.html#cajun">Cajun</a>
+            <a href="menu.html#sides">Sides</a>
+            <a href="menu.html#kids">Kids</a>
+            <a href="menu.html#icecream">Ice Cream</a>
         </div>
         <div class="contact">
             <h3>Contact</h3>
@@ -84,9 +521,9 @@
             <p>Email: EmailFiller@Email.com</p>
             <br>
             <p>14228 Mt Carmel Rd</p>
-            <p>Eugeno, MO 65032</p>
+            <p>Eugene, MO 65032</p>
             <br>
-            <a href="#">Find us on Facebook!</a>
+            <a href="https://www.facebook.com/GRUBANDSCRUB/">Find us on <span class="facebook">Facebook!</span></a>
         </div>
     </div>
 </body>
