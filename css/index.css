@@ -189,7 +189,8 @@ h3 {
 }
 
 .right-side {
-    float: right;
+  float: right;
+  padding: .5rem;
 }
 
 /* The side navigation menu */

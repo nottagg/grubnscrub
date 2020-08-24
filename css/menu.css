@@ -212,7 +212,8 @@ div.logo h1.logo {
 }
 
 .right-side {
-    float: right;
+  float: right;
+  padding: .5rem;
 }
 
 /* The side navigation menu */
