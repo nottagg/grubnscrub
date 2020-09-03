@@ -1,19 +1,19 @@
 @font-face {
   font-family: 'rowdiesregular';
-  src: url('../resources/rowdies-regular-webfont.woff2') format('woff2'),
-       url('../resources/rowdies-regular-webfont.woff') format('woff');
+  src: url('../resources/Staatliches-Regular.woff2') format('woff2'),
+          url('../resources/Staatliches-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  background-color: #886D57;
+  background-color: #3B3A3A;
   margin: 0px 0px;
 }
 
 p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 1.5rem; 
+  font-size: 1.3rem; 
   margin: .5rem 0 .5rem 0;
 }
 
@@ -24,10 +24,28 @@ p {
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
   color:white;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 5rem 1rem 1rem 1rem;
   font-size: 2rem;
   min-height: 60rem;
   max-height: 25%;
+}
+
+.GSLogo {
+  max-width: 100%;
+}
+
+.footer-logo {
+  max-width: 75%;
+}
+
+.hours {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hours p {
+  font-size: 1.2rem;
 }
 
 .welcome-text {
@@ -65,7 +83,7 @@ p {
 }
 
 .container-3 {
-  background-color: #b7a7a3;
+  background-color: #D8D8D8;
   padding: 2rem;
   background-image: url("../resources/black-felt.png");
   text-align: center;
@@ -84,7 +102,7 @@ p {
 }
 
 .footer {
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 1rem 1rem 2rem 1rem;
   color: white;
   align-items: flex-start;
   background-color: black;
@@ -98,7 +116,7 @@ p {
   display: block;
   padding: .5rem 0 .5rem 0;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-decoration: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -110,25 +128,7 @@ p {
 
 .footer div {
   flex: 1;
-  min-width: 18rem;
-}
-
-div.logo {
-  text-align: start;
-}
-
-h1.logo {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 10vw;
-  color: #E17F4C;
-  -webkit-text-stroke: .1rem white;
-  flex-grow: 5;
-  justify-content: center;
-  margin-top: 20%;
-}
-
-div.logo h1.logo {
-  font-size: 2rem;
+  min-width: 15rem;
 }
 
 h3 {
@@ -146,7 +146,7 @@ h3 {
 .who-rule {
   width: 13rem;
   height: .3rem;
-  background: #E17F4C;
+  background: #C7353C;
   border: 0rem;
   border-radius: 15%;
 }
@@ -158,7 +158,7 @@ h3 {
   font-size: 1.2rem;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0.8rem;
-  background-color: #E17F4C;
+  background-color: #C7353C;
   color: white;
   border-radius: 15px;
 }
@@ -252,7 +252,7 @@ h3 {
 
 #nav-title {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: #E17F4C;
+  color: #C7353C;
   font-size: 2rem;
   -webkit-text-stroke: .1rem white;
 }

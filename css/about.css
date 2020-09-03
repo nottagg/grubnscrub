@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'rowdiesregular';
-    src: url('../resources/rowdies-regular-webfont.woff2') format('woff2'),
-            url('../resources/rowdies-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'rowdiesregular';
+  src: url('../resources/Staatliches-Regular.woff2') format('woff2'),
+          url('../resources/Staatliches-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-    background-color: #2C2535;
+    background-color: #3B3A3A;
     margin: 0px 0px;
     background-image: url("../resources/brick-wall.png")
 
@@ -113,10 +113,29 @@ h1.logo {
   .who-rule {
     width: 13rem;
     height: .3rem;
-    background: #6C8EBF;
+    background: #C7353C;
     border: 0rem;
     border-radius: 15%;
   }
+
+  .GSLogo {
+    max-width: 100%;
+  }
+  
+  .footer-logo {
+    max-width: 75%;
+  }
+  
+  .hours {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hours p {
+    font-size: 1.2rem;
+  }
+  
   
   .footer a{
     display: block;
