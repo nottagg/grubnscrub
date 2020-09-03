@@ -64,7 +64,7 @@ h3 {
 .about-rule {
     width: 100%;
     height: .3rem;
-    background: #6C8EBF;
+    background: #C7353C;
     border: 0rem;
     border-radius: 15%;
   }
@@ -89,15 +89,6 @@ h3 {
   justify-content: space-around;
   margin-bottom: 5rem;
 }
-
-h1.logo {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2rem;
-    color: #E17F4C;
-    -webkit-text-stroke: .1rem white;
-    flex-grow: 5;
-    justify-content: center;
-  }
   
   .footer {
     padding: 1rem 2rem 2rem 2rem;
