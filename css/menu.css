@@ -262,9 +262,17 @@ div.logo {
   }
 
 .fa-bars {
-    color: white;
-    font-size: 2rem;
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em white, 0 0 0.5em white, 0 0 0.1em white, 0 10px 3px #000;
+  color: white;
+  font-size: 2rem;
+  text-align: right;
+}
+
+.fa-bars:hover{
+  color: red;
+  font-size: 2rem;
+  text-align: right;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em white, 0 0 0.5em white, 0 0 0.1em white, 0 10px 3px #000;
+  cursor: pointer;
 }
 
 #nav-title {

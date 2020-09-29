@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'rowdiesregular';
-  src: url('../resources/Staatliches-Regular.woff2') format('woff2'),
-          url('../resources/Staatliches-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
+    font-family: 'rowdiesregular';
+    src: url('../resources/Staatliches-Regular.woff2') format('woff2'),
+            url('../resources/Staatliches-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+    
 body {
-  background-color: #3B3A3A;
-  margin: 0px 0px;
+  margin: 0;
+  background-color: black;
 }
 
 p {
@@ -17,27 +17,70 @@ p {
   margin: .5rem 0 .5rem 0;
 }
 
-.container-1 {
-  text-align:center;
-  background: url("../resources/crabLanding.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
-  color:white;
-  padding: 5rem 1rem 1rem 1rem;
-  font-size: 2rem;
-  min-height: 60rem;
-  max-height: 25%;
+h2 {
+  -webkit-text-stroke: .01rem white;
+  font-size: 5rem;
+  font-weight: 800;
 }
 
+@media only screen and (min-width: 451px) {
+  .container-1 {
+    text-align:center;
+    background: url("../resources/carwash.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+    color:white;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    min-height: 50rem;
+  }
+
+  .car-rule {
+    margin: 0;
+    height: .3rem;
+    background: #C7353C;
+    border: 0rem;
+    border-radius: 15%;
+    width: 30rem;
+    margin:auto;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container-1 {
+    text-align:center;
+    background: url("../resources/carwash.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+    color:white;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    min-height: 15rem;
+  }
+  
+  .car-rule {
+    margin: 0;
+    height: .3rem;
+    background: #C7353C;
+    border: 0rem;
+    border-radius: 15%;
+    width: 80%;
+    margin:auto;
+  }
+}
+  
 .GSLogo {
   max-width: 100%;
 }
-
+  
 .footer-logo {
   max-width: 75%;
 }
-
+  
 .hours {
   align-items: center;
   justify-content: center;
@@ -48,25 +91,21 @@ p {
   font-size: 1.2rem;
 }
 
-.welcome-text {
-  align-items: center;
-  padding: 2rem;
-}
-
-.container-1 h2 {
-  font-family: 'rowdiesregular';
-  font-weight: 400;
-}
-
 .container-2 {
   color:white;
-  padding: 2rem;
+  padding: 1rem;
   font-size: 1.5rem;
-  background: url("../resources/black-felt.png");
+  background-color: black;
   padding-bottom: 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: 'rowdiesregular';
+  margin: 1rem;
 }
 
 .facebook {
@@ -75,30 +114,16 @@ p {
 
 .container-2 div {
   flex: 1;
-  min-width: 18rem;
-  max-width: 50%;
   text-align: center;
-  align-self: center;
-  padding: 1rem;
 }
 
-.container-3 {
-  background-color: #D8D8D8;
-  padding: 2rem;
-  background-image: url("../resources/black-felt.png");
-  text-align: center;
+.super {
+  background-color: red;
+  height: 50rem;
+  width:90%;
+  border-radius: 5rem;
   display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: center;
-}
-
-.container-3 div {
-  flex: 1;
-  min-width: 18rem;
-  max-width: 50%;
-  text-align: center;
-  align-self: center;
-  padding: 1rem;
+  padding:1rem;
 }
 
 .footer {
@@ -121,9 +146,13 @@ p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.footer .who-rule {
+.who-rule {
   margin: 0;
   width: 11rem;
+  height: .3rem;
+  background: #C7353C;
+  border: 0rem;
+  border-radius: 15%;
 }
 
 .footer div {
@@ -137,35 +166,6 @@ h3 {
   font-size: 2rem;
   font-family: 'rowdiesregular';
   font-weight: 400;
-}
-
-.container-4 h1 {
-  margin-top: 0;
-}
-
-.who-rule {
-  width: 13rem;
-  height: .3rem;
-  background: #C7353C;
-  border: 0rem;
-  border-radius: 15%;
-}
-
-.menu-button , .about-button{
-  align-items: flex-start;
-  text-align: center;
-  font-weight: 400;
-  font-size: 1.2rem;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 0.8rem;
-  background-color: #C7353C;
-  color: white;
-  border-radius: 15px;
-}
-
-.newspaper {
-  width: 100%;
-  border-radius: 20%;
 }
 
 .navbar {
@@ -244,9 +244,9 @@ h3 {
   }
 
 .fa-bars {
-  color: white;
-  font-size: 2rem;
-  text-align: right;
+    color: white;
+    font-size: 2rem;
+    text-align: right;
 }
 
 .fa-bars:hover{
