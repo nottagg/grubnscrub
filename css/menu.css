@@ -56,7 +56,6 @@ p {
 .menu-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem;
   justify-content: space-around;
   margin-bottom: 5rem;
 }
