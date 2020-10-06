@@ -46,6 +46,25 @@ h2 {
     width: 30rem;
     margin:auto;
   }
+
+  .circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin-bottom: 160px;
+  }
+
+  .super .item {
+    height: 10rem;
+    margin: 0rem 3rem;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -61,6 +80,11 @@ h2 {
     font-size: 1.5rem;
     min-height: 15rem;
   }
+
+  .super .item {
+    height: 10rem;
+    margin: 0rem 1rem;
+  }
   
   .car-rule {
     margin: 0;
@@ -70,6 +94,19 @@ h2 {
     border-radius: 15%;
     width: 80%;
     margin:auto;
+  }
+
+  .circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
   }
 }
   
@@ -119,11 +156,23 @@ h2 {
 
 .super {
   background-color: red;
-  height: 50rem;
   width:90%;
   border-radius: 5rem;
   display: flex;
   padding:1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.super h3 {
+  color: white;
+  font-size: 3rem;
+}
+
+.super .title {
+  height: 10rem;
+  width: 100%;
 }
 
 .footer {
@@ -135,6 +184,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   align-self: flex-start;
+  justify-self: center;
 }
 
 .footer a{
@@ -144,6 +194,7 @@ h2 {
   font-size: 1.3rem;
   text-decoration: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 10px;
 }
 
 .who-rule {
