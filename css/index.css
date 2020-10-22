@@ -152,7 +152,7 @@ h3 {
   border-radius: 15%;
 }
 
-.menu-button , .about-button{
+.menu-button , .about-button {
   align-items: flex-start;
   text-align: center;
   font-weight: 400;
@@ -162,11 +162,16 @@ h3 {
   background-color: #C7353C;
   color: white;
   border-radius: 15px;
+  border:solid
+}
+
+.menu-button, .about-button:hover {
+  cursor: pointer;
 }
 
 .newspaper {
   width: 100%;
-  border-radius: 20%;
+  border-radius: 10%;
 }
 
 .navbar {
