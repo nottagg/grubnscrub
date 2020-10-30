@@ -30,6 +30,11 @@ p {
   max-height: 25%;
 }
 
+@media only screen and (min-width: 1200px) {
+  .welcome-text {
+    margin: 0rem 15rem;
+  }
+}
 .GSLogo {
   max-width: 100%;
 }
