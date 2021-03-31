@@ -109,6 +109,7 @@ h4 {
   font-family: 'rowdiesregular';
   margin: 0rem 0rem 0rem 0rem;
   -webkit-text-stroke: .01rem black;
+  letter-spacing: 1px;
 }
 
 h5 {
@@ -171,12 +172,11 @@ h5 {
 
 .footer a{
   display: block;
-  padding: .5rem 0 .5rem 0;
+  padding: 0 0 0.5rem 0;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-decoration: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  width: 120px;
 }
 
 p {
@@ -279,6 +279,12 @@ div.logo {
   }
 
 .fa-bars {
+  color: white;
+  font-size: 2rem;
+  text-align: right;
+}
+
+.fa-bars::before {
   color: white;
   font-size: 2rem;
   text-align: right;
