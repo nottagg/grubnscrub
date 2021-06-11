@@ -279,3 +279,11 @@ h3 {
   font-size: 2rem;
   -webkit-text-stroke: .1rem white;
 }
+
+#nav-hire {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #C7353C;
+  font-size: 2rem;
+  -webkit-text-stroke: .1rem white;
+  margin: auto ;
+}
