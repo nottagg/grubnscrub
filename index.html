@@ -10,24 +10,10 @@
     <title>GRUB & SCRUB</title>
 </head> 
 <body>
-    <div class="navbar">
-        <a href="index.html" id="nav-title">Grub&Scrub</a>
-        
-        <div class="right-side">
-            <i class="fa fa-bars" onclick="openNav()"></i>
-        </div>
-    </div>
-    <div class="sidenav" id="mySidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">Home</a>
-        <!--<a href="about.html">About</a>-->
-        <a href="menu.html">Menu</a>
-        <a href="carWash.html">Car Wash</a>
-        <a href="https://forms.gle/nTT43KajDEd734yn9" target="_blank">Apply</a>
-    </div>
+    <div id="navbar"></div>
 
     <div class="container-1">
-        <img src="resources/Grub & Scrub Logo1024_1.jpg" class="GSLogo" alt="GSLogo">
+        <img src="resources/lightgandslogo.jpg" class="GSLogo" alt="GSLogo">
         <div class="welcome-text">
             <h2>Where you can clean your plate and your car</h2>
             <p>We serve a variety of quality foods, with a great American Menu. We have something for everyone. We offer the best burgers around. We also have shrimp, catfish, amazing sandwiches, and more. Follow us on Facebook to see daily specials.</p>
@@ -60,32 +46,17 @@
             <img src="resources/Sandwich.jpg" class="newspaper" alt="">
         </div>
     </div>
-
-    <div class="footer">
-        <div class="hours">
-            <img src="resources/Grub & Scrub Logo1024_1.jpg" class="footer-logo" alt="">
-            <p>Hours:</p>
-            <p>6 AM - 7 PM Tue-Sun</p>
-        </div>
-        <div class="navigation">
-            <h3>Navigation</h3>
-            <hr class="who-rule">
-            <a href="index.html">Home</a>
-            <!--<a href="about.html">About</a>-->
-            <a href="menu.html">Menu</a>
-            <a href="carwash.html">Car Wash</a>
-            <a href="https://forms.gle/nTT43KajDEd734yn9" target="_blank">Apply</a>
-        </div>
-        <div class="contact">
-            <h3>Contact</h3>
-            <hr class="who-rule">
-            <a href="tel:5738329511">Phone: (573) 832-9511</a>
-            <p>Email: grubandscrubllc@gmail.com</p>
-            <br>
-            <a href="https://www.google.com/maps/place/14228+Mt+Carmel+Rd,+Eugene,+MO+65032/" target="_blank">14228 Mt Carmel Rd <br>Eugene, MO 65032</a>
-            <br>
-            <a href="https://www.facebook.com/GRUBANDSCRUB/" target="_blank">Find us on <span class="facebook">Facebook!</span></a>
-        </div>
-    </div>
+    <div id="footer"></div>>
+    <!-- JQUERY -->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            $("#footer").load('footer.html');
+            $("#navbar").load('navbar.html');
+        });
+    </script>
 </body>
 </html>
