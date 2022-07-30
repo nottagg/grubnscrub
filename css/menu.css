@@ -27,7 +27,7 @@ p {
   color:black;
   padding: 5rem 1rem 1rem 1rem;
   font-size: 2rem;
-  min-height: 60rem;
+  min-height: 30rem;
   max-height: 25%;
 }
 
@@ -84,10 +84,6 @@ section {
 .section-title {
   align-content: center;
   text-align: center;
-}
-
-.menu-title {
-    padding: 10% 0 10% 0;
 }
 
 h2  {
